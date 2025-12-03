@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+<header>
     <nav class="navbar navbar-expand-lg navbar-custom">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -26,44 +26,56 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div id="mainNav">
-      <ul>
+      <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav">
         <li>
-          <a href="index.html">Home</a>
+          <a class="nav-link nav-big" href="index.html">Home</a>
         </li>
 
+
+        <!-- adopt -->
+
         <li>
-          <a href="adopt.html">Adopt</a>
-          <ul>
-            <li><a href="adopt.html">Dogs</a></li>
-            <li><a href="adopt.html">Cats</a></li>
+          <a class="nav-link nav-big" href="adopt.html" data-bs-toggle="dropdown" role=""><div class="custom-arrow">▼</div> Adopt</a>
+          <ul class="dropdown">
+            <li><a class="dropdown" href="adopt.html">Dogs</a></li>
+            <li><a class="dropdown" href="adopt.html">Cats</a></li>
           </ul>
         </li>
 
+
+<!-- involved -->
+
+
         <li>
-          <a href="involved.html">Get involved</a>
+          <a class="nav-link nav-big" href="involved.html" data-bs-toggle="dropdown" role="button"><div class="custom-arrow">▼</div>Get involved</a>
           <ul>
-            <li><a href="involved.html">Volunteer</a></li>
-            <li><a href="involved.html">Foster</a></li>
-            <li><a href="involved.html">Donate</a></li>
-            <li><a href="involved.html">Spread the Word</a></li>
+            <li><a class="dropdown" href="involved.html">Volunteer</a></li>
+            <li><a class="dropdown" href="involved.html">Foster</a></li>
+            <li><a class="dropdown" href="involved.html">Donate</a></li>
+            <li><a class="dropdown" href="involved.html">Spread the Word</a></li>
           </ul>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<div>
-    <h2><a href="adopt.html">Adopt a Friend!</a></h2>
-</div>
-<main>
-    <section>
-        <div>
 
-            <div>
-                <p>
-                    Welcome to <span>Pawsitive</span>, a caring animal shelter<br>
-                    helping pets <span>find homes.</span>
+
+<!-- adopt bar -->
+
+<div class="adopt-bar py-2">
+    <h2 class="h4 mb-0"><a href="adopt.html">Adopt a Friend!</a></h2>
+</div>
+</header>
+<main>
+    <section class="hero lavender">
+        <div class="">
+
+            <div class="">
+                <p class="hero-big-text">
+                    Welcome to <span class="hero-highlight">Pawsitive</span>, a caring animal shelter<br>
+                    helping pets <span class="hero-highlight" >find homes.</span>
                 </p>
             </div>
             <div class="hero-cat position-relative">
@@ -76,11 +88,15 @@
       </div>
     </section>
 
-    </section>
 
-            <section>
-    <div>
-        <div>
+ <!-- pet cards -->
+
+            <section class="">
+    <div class="container">
+        <div class="justify-content-center">
+
+
+          <!-- for cats -->
 
             <div>
                 <article>

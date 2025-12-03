@@ -23,13 +23,14 @@
 
 
 body{
-    background-color: 
+    background-color: var(--bs-body-bg);
     font-family: var(--bs-body-font-family, );
     color: var(--bs-body-color);
 
 }
 
   .navbar-custom {
+  background-color: var(--taupe-soft);/* impoetant*/
   padding-top: 1.7rem;
   padding-bottom: 1.7rem;
   border-bottom: 2px solid rgba(0,0,0,0.05);
@@ -42,6 +43,7 @@ body{
 
 .brand-logo-text {
   height: 40px;
+  width: auto;
   margin-left: 0.25rem;
 }
 
@@ -57,14 +59,23 @@ body{
 
 .navbar-nav .nav-link {
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 0;
+  line-height: 1.1;
 }
 
 .adopt-bar{
   background-color: var(--gray-medium);
+  color: var(--plum-dark);
+  font-weight: 600;
   text-align: center;
-  /*add hover for the adopt bar*/
+}
+
+
+.adopt-bar:hover {
+  background-color: var(--lavender-light);
+  color: var(--plum-dark);
 }
 
 
