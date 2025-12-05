@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>pawsitive-Adopt</title>
      
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
       <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,7 +20,7 @@
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="index.html">
       <img src="images/Index/logopaw.png" alt="Pawsitive logo paw" class="brand-logo-paw">
-      <img src="images/Index/logoword.png" alt="Pawsitive wordmark" class="brand-logo-text">
+      <img src="images/Index/logoword.png" class="brand-logo-text" alt="Pawsitive wordmark" >
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +38,8 @@
         <!-- adopt -->
 
         <li class="nav-item dropdown text-center"> 
-          <a class="nav-link nav-big dropdown-toggle-custom" 
-          id="adoptDropdown" href="adopt.html" data-bs-toggle="dropdown" aria-expanded="false" role="button">Adopt
+          <a class="nav-link nav-big dropdown-toggle-custom active" 
+          id="adoptDropdown" href="adopt.html"aria-current="page" data-bs-toggle="dropdown" role="button" aria-expanded="false" role="button">Adopt
           <div class="custom-arrow">▼</div>
           </a>
 
@@ -74,74 +79,74 @@
 <!-- adopt bar -->
 
 <div class="adopt-bar py-2">
- <h2 class="h4 mb-0"><a class="dropdown-item" href="adopt.html">Adopt a Friend !</a></h2>
+ <h2 class="h4 mb-0">Adopt a Friend !</a></h2>
 
 </div>
 </header>
 
 <main class="adopt-main">
 
-  <section class="">
+  <section class="pet-section pet-section-adopt py-5">
     <div class="container">
-      <div class="justify-content-center">
+      <div class=" row g-4 justify-content-center">
 <!-- melow -->
         <div class="col-12 col-sm-6 col-lg-3">
-          <article class="">
-            <div class="">
-              <span class="">Melow</span>
-              <div class="">
-                <img src="images/adopt/dog1.png" alt="Melow" class="">
+          <article class="pet-card text-center">
+            <div class="pet-photo-wrapper">
+              <span class="pet-name-label">Melow</span>
+              <div class="pet-photo-bg">
+                <img src="images/adopt/dog1.png" alt="Melow" class="pet-img pet-img-smaller img-fluid">
               </div>
             </div>
-            <div class="">
-              <p class="">Happy dog who loves walks.</p>
+            <div class="pet-desc">
+              <p class="mb-0">Happy dog who loves walks.</p>
             </div>
-            <div class="">Adopt me!</div>
+            <div class="pet-cta">Adopt me!</div>
           </article>
         </div>
 <!-- luna -->
-        <div class="">
-          <article class="">
-            <div class="">
-              <span class="">Luna</span>
-              <div class="">
-                <img src="images/adopt/dog1.png" alt="Luna" class="">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="pet-card text-center">
+            <div class="pet-photo-wrapper">
+              <span class="pet-name-label">Luna</span>
+              <div class="pet-photo-bg">
+                <img src="images/adopt/dog2.png" alt="Luna" class="pet-img img-fluid">
               </div>
             </div>
-            <div class="">
-              <p class="">Playful and curious little explorer.</p>
+            <div class="pet-desc">
+              <p class="mb-0">Playful and curious little explorer.</p>
             </div>
-            <div class="">Adopt me!</div>
+            <div class="pet-cta">Adopt me!</div>
           </article>
         </div>
 <!-- layt -->
-        <div class="">
-          <article class="">
-            <div class="">
-              <span class="">Layt</span>
-              <div class="">
-                <img src="images/adopt/dog1.png" alt="Layt" class="">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="pet-card text-center">
+            <div class="pet-photo-wrapper">
+              <span class="pet-name-label">Layt</span>
+              <div class="pet-photo-bg">
+                <img src="images/adopt/cat1.png" alt="Layt" class="pet-img pet-img-smaller img-fluid">
               </div>
             </div>
-            <div class="">
-              <p class="">Gentle and shy, loves cozy naps.</p>
+            <div class="pet-desc">
+              <p class="mb-0">Gentle and shy, loves cozy naps.</p>
             </div>
-            <div class="">Adopt me!</div>
+            <div class="pet-cta">Adopt me!</div>
           </article>
         </div>
 <!-- sukuna -->
-        <div class="">
-          <article class="">
-            <div class="">
-              <span class="">Sukuna</span>
-              <div class="">
-                <img src="images/adopt/dog1.png" alt="Sukuna" class="">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <article class="pet-card text-center">
+            <div class="pet-photo-wrapper">
+              <span class="pet-name-label">Sukuna</span>
+              <div class="pet-photo-bg">
+                <img src="images/adopt/cat2.png" alt="Sukuna" class="pet-img pet-img-smaller img-fluid">
               </div>
             </div>
-            <div class="">
-              <p class="">Sweet and calm cuddle buddy</p>
+            <div class="pet-desc">
+              <p class="mb-0">Sweet and calm cuddle buddy</p>
             </div>
-            <div class="">Adopt me!</div>
+            <div class="pet-cta">Adopt me!</div>
           </article>
         </div>
       </div>
@@ -162,19 +167,19 @@
     </div>
 
     <div class="footer-social d-flex gap-3">
-      <a href="https://www.youtube.com">
+      <a href="https://www.youtube.com" target="_blank">
         <img src="images/Index/youtube-icon.jpg" class="social-icon">
       </a>
 
-      <a href="https://www.instagram.com">
+      <a href="https://www.instagram.com" target="_blank">
         <img src="images/Index/instagram-icon.jpg" class="social-icon">
       </a>
 
-      <a href="https://www.threads.com">
+      <a href="https://www.threads.com" target="_blank">
         <img src="images/Index/threads-icon.jpg" class="social-icon">
       </a>
 
-      <a href="https://www.x.com">
+      <a href="https://www.x.com" target="_blank">
         <img src="images/Index/twitter-icon.jpg" class="social-icon">
       </a>
     </div>
