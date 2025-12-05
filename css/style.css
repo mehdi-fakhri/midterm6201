@@ -156,7 +156,7 @@ body{
 .pet-img {
   max-height: 95%;
   object-fit: contain;
-  /* object-position: center center; */
+   object-position: center center; 
   width: auto;
 
 }
